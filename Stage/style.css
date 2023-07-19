@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-size: 36px;  
+}
+
+/* ---Barre De Recherche--- */
+.Recherche input[type="search"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.Recherche input[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* ---Index.php--- */
+.photo {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 5px #ccc;
+    transition: all 0.3s ease;
+    float: left;
+}
+
+.photo:hover {
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.02);
+}
+
+.photo img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo .nom {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.photo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---Systeme2.php--- */
+
+.photoSyst {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 5px #ccc;
+    transition: all 0.3s ease;
+    float: left;
+}
+
+.photoSyst:hover {
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.02);
+}
+
+.photoSyst img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photoSyst .nom {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.photoSyst a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.retour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.retour a {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Boutons{
+    
+    text-align: center;
+}
+
+
+/* ---DetailsSystemes.php--- */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.photoDetail {
+    display: block;
+    margin-top:10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.photoDetail img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+table {
+    
+    border-collapse: collapse;
+    border: 3px solid #ccc;
+    margin-bottom: 20px;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 3px solid #ccc;
+}
+
+th {
+background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+.Details a {
+color: #0066cc;
+text-decoration: none;
+}
+
+.Details a:hover {
+text-decoration: underline;
+}
+
+/* ---AjoutEntretien.php --- */
+.AjtEntre{
+    display: flex;
+    flex-direction: column;
+}
+.AjtEntre form{                
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.AjtEntre a{
+text-decoration: none;
+}
+
+.AjtEntre textarea{
+width: 500px;
+height: 150px;
+border-radius: 4px;
+}
