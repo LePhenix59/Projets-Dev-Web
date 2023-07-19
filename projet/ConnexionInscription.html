@@ -1,0 +1,102 @@
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Page d'acceuil</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1 align="center">Val'Entraide</h1>
+		<div class="header">
+			<a href="index.html" class="bouton Acceuil">Accueil</a>
+			<a href="Presentation.html" class="bouton Presentation">Présentation</a>
+			<a href="Page Services.html" class="bouton Services">Services</a>
+			<a href="ConnexionInscription.html" class="bouton ConnexionInscription">Connexion/Inscription</a>
+		</div>		
+	<div class="CoInsc">
+  		
+  		<form class="Formulaire" action="admin/Inscription.php" method='POST'>
+    		<h1>Inscription</h1>
+    		<label for="Nom_Client">Nom :</label>
+			<input type="text" id="Nom_Client" name='Nom_Client' required>
+			
+			<label for="Prenom_Client">Prenom :</label>
+			<input type="text" id="Prenom_Client" name="Prenom_Client" required>
+			
+			<label for="Anniv_Client">Date d'anniversaire :</label>
+			<input type="date" id="Anniv_Client" name="Anniv_Client" required>
+			
+			<label for="Email_Client">Email :</label>
+			<input type="email" id="Email_Client" name="Email_Client" required>
+			
+			<label for="Adresse_Client">Adresse :</label>
+			<input type="text" id="Adresse_Client" name="Adresse_Client" required>
+			
+			<label for="Ville_Client">Ville :</label>
+			<input type="text" id="Ville_Client" name="Ville_Client" required>
+			
+			<label for="CP_Client">Code Postal :</label>
+			<input type="text" id="CP_Client" name="CP_Client" required>
+			
+			<label for="Mdp_Client">Mot de passe :</label>
+			<input type="password" id="Mdp_Client" name="Mdp_Client" required>
+			<br>
+			<br>
+			<input type="submit" value="S'inscrire">
+  		</form>
+
+		  <form class="Formulaire2" action="/login" method="post">
+    		<h1>Connexion</h1>
+    		<label for="email">Email :</label>
+    		<input type="email" id="email" name="email" required>
+    		<label for="password">Mot de passe :</label>
+    		<input type="password" id="password" name="password" required>
+			<br>
+			<br>
+    		<input type="submit" value="Se connecter">
+  		</form>
+	</div>		
+	<footer>
+
+		<div class="contenu-footer">
+
+			 <div class="bloc Informer"> 
+				<h3>Vous Informer</h3>
+				<ul class="liste-Informer">
+					<li><a href="Presentation.html">Qui Sommes Nous ?</a></li>
+					<li><a href="#">Avis de nos clients</a></li>
+					<li><a href="Contacter.html">Contactez Nous</a></li>
+				</ul>
+			 </div>
+
+			 <div class="bloc Localisation"> 
+				<h3>Localisation</h3>
+				<p>785 Rue de l'Égalité, 59300 Valenciennes</p>
+				<p>06-69-06-64-32 ou 06-59-10-05-84</p>
+				<p>ValEntraide@gmail.com</p>
+			 </div>
+
+			 <div class="bloc Horaires"> 
+				<h3>Nos Horaires</h3>
+				<ul class="liste-Horaires">
+					<li>✅ Lun : 10h-19h</li>
+					<li>✅ Mar : 10h-19h</li>
+					<li>✅ Mer : 10h-19h</li>
+					<li>✅ Jeu : 10h-19h</li>
+					<li>✅ Ven : 10h-19h</li>
+					<li>❌ Sam : Fermé</li>
+					<li>❌ Dim : Fermé</li>
+				</ul>
+			 </div>
+
+		</div>
+
+	</footer>
+
+  
+		<script src="script.js"></script>	
+	</body>
+</html>
+
+
+
+
